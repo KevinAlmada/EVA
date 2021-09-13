@@ -82,15 +82,22 @@ body{
     margin: 0 auto -50px;
 }
 /* FIN header */
+.characters{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.characters h1{
+    color: #C4C4C4;
+}
 .characters article{
     display: flex;
     flex-direction: column;
     align-items: center;
     border: #d13434 4px solid;
     border-radius: 8px;
-    padding-top: 20px;
-    padding-bottom: 20px;
     backdrop-filter: blur(2px);
+    margin-top: 15px;
 }
 .characters article figure{
     display: flex;
@@ -101,9 +108,6 @@ body{
     width: 280px;
 }
 .characters article figure figcaption{
-    font-size: 25px;
+    font-size: 22px;
     backdrop-filter: blur(5px) contrast(.8);
-}
-.characters article{
-    margin: 25px auto 25px ;
 }
