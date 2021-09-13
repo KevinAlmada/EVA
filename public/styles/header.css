@@ -102,4 +102,8 @@ body{
 }
 .characters article figure figcaption{
     font-size: 25px;
+    backdrop-filter: blur(5px) contrast(.8);
+}
+.characters article{
+    margin: 25px auto 25px ;
 }
