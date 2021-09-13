@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+}
+/* HEADER */
+header{
+    height: 77px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 0;
+    overflow: visible;
+}
+
+a{
+    color: #C4C4C4;
+    text-decoration: none;
+}
+figure.logo img {
+    height: 70px;
+}
+body{
+    background-image: url("../img/233781.jpg");
+    background-size: contain;
+    color: #C4C4C4;
+}
+.menu-toggle-conteiner{
+    background-image: url(../img/Group\ 6ramiel.png);
+    background-repeat: no-repeat;
+    background-size: 100% 358px;
+    background-position: center;
+    width: 100vw;
+    height: 358px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    bottom: 110%;
+    transition: all ease-in-out 2s;
+    z-index: 10;
+}
+.menu-button{
+    cursor: pointer;
+}
+.menu-toggle-conteiner form{
+    width: 80vw;
+    margin: 90px auto 0;
+    position: relative;
+}
+.menu-toggle-conteiner form input{
+    width: 100%;
+    height: 25px;
+    background-color:#C4C4C4;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+.menu-toggle-conteiner form button{
+    height: 25px;
+    position: absolute;
+    right: 0%;
+    color: red;
+    background-color: black;
+    border-radius: 3px;
+}
+.menu-toggle-conteiner ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 32px;
+}
+.menu-toggle-conteiner li{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 5px;
+}
+.menu-toggle-conteiner span{
+    margin: 0 auto -50px;
+}
+/* FIN header */
+.characters article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: #d13434 4px solid;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    backdrop-filter: blur(2px);
+}
+.characters article figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.characters article figure img{
+    width: 280px;
+}
+.characters article figure figcaption{
+    font-size: 25px;
+}
